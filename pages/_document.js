@@ -5,10 +5,10 @@ export default class MyDocuments extends Document {
 	render() {
 		return (
 			<Html>
-				<Head></Head>
+				<Head />
 				<body>
 					<Main />
-					<NextScript></NextScript>
+					<NextScript />
 				</body>
 			</Html>
 		);

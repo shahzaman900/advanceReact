@@ -1,7 +1,16 @@
+import Link from "next/link";
+import Nav from "./Nav";
+
 export default function Header() {
 	return (
 		<header>
-			<h2>Header Page</h2>
+			<div className="bar">
+				<Link href="/">Sick Fit</Link>
+				<Nav></Nav>
+			</div>
+			<div className="sub-bar">
+				<input type="search"></input>
+			</div>
 		</header>
 	);
 }
